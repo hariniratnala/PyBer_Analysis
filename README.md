@@ -6,9 +6,21 @@ The purpose of this analysis was to comb through ride sharing data nd determine 
 
 ## Results
 
+create a PyBer summary DataFrame with all the data gathered from Steps 1-5, using the column names shown below:
+
+![image](https://user-images.githubusercontent.com/108489186/181389209-b65bbdcb-7510-46b1-804a-950748f3da63.png)
+
 There are several significant observations to be made while looking at the data when sorted by city type
 
 ![image](https://user-images.githubusercontent.com/108489186/181386067-2b6eb6f8-18e7-4fcf-a2bf-d1911e8350b8.png)
+
+ In cells where there is no fare to be summed for that row, the cell will be filled with NaNs.
+ 
+ ![image](https://user-images.githubusercontent.com/108489186/181389380-e4a56332-2ff7-4de0-8744-501f824943f0.png)
+
+After creating the resampled DataFrame, confirm that your DataFrame looks like this:
+
+![image](https://user-images.githubusercontent.com/108489186/181389504-ea8778fd-392a-425c-82a1-9c58bc0dd787.png)
 
 As cities became more urban several trends emerged: -Total rides, total fares, and total drivers all increased, likely due to the higher population -Average fare per ride and average fare per driver all decreased
 
